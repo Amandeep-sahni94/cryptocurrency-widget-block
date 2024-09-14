@@ -1,0 +1,20 @@
+{
+	"name": "@cryptocurrency-widget-block/cryptocurrency-widget",
+	"version": "1.0.0",
+	"author": "Amandeep sahni",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"*"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^27.8.0"
+	},
+	"dependencies": {
+		"react-select": "^5.8.0"
+	}
+}

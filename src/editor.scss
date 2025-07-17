@@ -122,9 +122,9 @@
     }
 }
 /* Pause the animation on hover */
-// .wp-block-coinpaprika-block .ticker-wrapper:hover .ticker {
-//     animation-play-state: paused;
-// }
+.wp-block-coinpaprika-block .ticker-wrapper:hover .ticker {
+    animation-play-state: paused !important;
+}
 
 /* Additional styling for labels and values */
 .wp-block-coinpaprika-block .label {

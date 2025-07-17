@@ -8,11 +8,9 @@
   "description": "Displays Cryptocurrency data in a diffrent widgets.",
   "example": {},
   "keywords": [
-    "crypto",
-    "coinpaprika",
-    "widgets",
+    "crypto",   
     "crypto widget",
-    "crypto currency",
+    "cryptocurrency",
     "block"
   ],
   "attributes": {

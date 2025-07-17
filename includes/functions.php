@@ -111,6 +111,7 @@ function ccwfg_filterSelectedCoins($selectedValues, $allData) {
     $filteredData = array();
 
     foreach ($selectedValues as $selected) {
+        var_dump($selected);
         if (isset($dataMap[$selected['value']])) {
             $filteredData[] = $dataMap[$selected['value']];
         }
@@ -225,7 +226,7 @@ function ccwfg_display_coin_data_ticker($data, $tickerspeed=30) {
 
     echo '<div class="wp-block-coinpaprika-block">';
     echo '<div class="ticker-wrapper">';
-    echo '<div class="ticker" >';
+    echo '<div class="ticker" style="animation:ticker '.esc_attr($tickerspeed).'s linear infinite">';
     echo '<div class="ticker-content">';
     
     // Print the ticker content twice to ensure seamless scrolling
@@ -295,6 +296,8 @@ function ccwfg_replacePlaceholders($text, $coin) {
     if (!isset($coinsuds['price'])) {
         throw new InvalidArgumentException('The coinsuds array must contain  "price" keys.');
     }
+   
+   
     // Replace placeholders with values from the coinsuds array
     $text = str_replace('[coin-rank]', '<b>'.$coin['rank'].'</b>', $text);
     $text = str_replace('[coin-name]', '<b>'.$coin['name'].'</b>', $text);

@@ -7,7 +7,12 @@
 	"category": "widgets",
 	"description": "Displays Cryptocurrency data in a diffrent widgets.",
 	"example": {},
-	"keywords": [ "crypto","coinpaprika","widgets","crypto widget","crypto currency","block"],
+	"keywords": [
+		"crypto",   
+		"crypto widget",
+		"cryptocurrency",
+		"block"
+	  ],
 	"attributes": {		
 	"widgettype": {
       "type": "string",

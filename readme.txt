@@ -1,9 +1,9 @@
 === Cryptocurrency Widget Block ===
 Contributors: sahniaman94
 Donate link: https://www.paypal.com/paypalme/sahniaman/10USD/
-Tags: widgets, cryptocurrency, block, real-time data, custom widgets
+Tags: cryptocurrency, block, real-time data, Gutenberg
 Requires at least: 5.0
-Tested up to: 6.6.2
+Tested up to: 6.7
 Requires PHP: 7.0
 Stable tag: 1.0.1
 License: GPLv2 or later
@@ -14,6 +14,7 @@ Display top 200 cryptocurrency data with customizable widgets for real-time upda
 
 This plugin allows you to display top 200 cryptocurrency data using a variety of customizable widget blocks. These blocks are designed to present real-time cryptocurrency information in an engaging and user-friendly format.
 
+[ View Demo ](https://craftedbyaman.rf.gd/cryptocurrency-widget-block/)
 Features:
 - **Customizable Widgets:** Tailor each widget block to display different types of cryptocurrency data.
 - **Real-Time Data:** Keep your cryptocurrency information up-to-date with real-time data.
@@ -89,5 +90,4 @@ The data is updated at 10-minute intervals.
 
 2. **Configured Widget Display:**
    ![Configured Widget Display]
-
 
